@@ -1,0 +1,6 @@
+duplicar las variables del sistema de path y las demas 
+
+	static List<SearchNode> Path = new LinkedList<SearchNode>();
+	static List<SearchNode> Visited = new LinkedList<SearchNode>();
+	static List<SearchNode> CrossRoads = new LinkedList<SearchNode>();
+	static List<SearchNode> Goals = new LinkedList<SearchNode>();

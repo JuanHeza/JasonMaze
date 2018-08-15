@@ -1,0 +1,17 @@
+/* Main MAS configuration file for project Vacuum Cleaner 
+ * Author: Romeo Sanchez
+ robota [verbose=2];  robotb [verbose=3];
+ */
+
+MAS vacuumgoals {
+
+	infrastructure: Centralised
+
+	environment: VCWorldEnvironment(gui,51,51)
+
+	agents:
+		robota;  robotb;
+
+	aslSourcePath:
+		"src/asl";
+}
